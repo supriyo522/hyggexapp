@@ -1,0 +1,797 @@
+.component40Icon {
+  width: 191px;
+  height: 39px;
+  object-fit: cover;
+}
+.component40Icon,
+.contact,
+.flashcard,
+.home {
+  position: relative;
+}
+.frameLogin {
+  width: 282px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.faq,
+.login {
+  position: relative;
+}
+.login {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--med);
+  color: var(--color-white);
+  text-align: left;
+}
+.frameLoginParent,
+.frameRoot,
+.homeFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.homeFrame {
+  cursor: pointer;
+  border: 0;
+  padding: 13px;
+  background-color: transparent;
+  border-radius: 32px;
+  background: linear-gradient(180deg, #06286e, #164ec0);
+  width: 128px;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.frameLoginParent,
+.frameRoot {
+  max-width: 100%;
+}
+.frameLoginParent {
+  justify-content: flex-start;
+  gap: 40px;
+}
+.frameRoot {
+  width: 1233px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  font-family: var(--med);
+}
+.quizLineFrame,
+.studyLineFrame {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.quizLineFrame {
+  width: 24px;
+  height: 24px;
+}
+.flashcard1 {
+  position: relative;
+  font-weight: 500;
+}
+.frameRelationsFunctions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameContentIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.mathematics {
+  position: relative;
+  font-weight: 500;
+}
+.frameStudyQuizTestGame {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.relationAndFunction {
+  position: relative;
+  font-weight: 600;
+}
+.textFunctionRelations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--color-darkslateblue);
+}
+.frameMathematics,
+.gameLineFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  max-width: 100%;
+}
+.frameMathematics {
+  justify-content: flex-start;
+}
+.relationsAndFunctions {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(180deg, #06286e, #164ec0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameChild,
+.study {
+  position: relative;
+}
+.frameChild {
+  align-self: stretch;
+  border-top: 2px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+  height: 2px;
+}
+.studyParent {
+  width: 82px;
+  height: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  color: var(--color-darkslateblue);
+}
+.quiz {
+  position: relative;
+  font-weight: 500;
+}
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  border-top: 2px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  height: 2px;
+}
+.quizParent {
+  width: 68px;
+  height: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.test {
+  position: relative;
+  font-weight: 500;
+}
+.frameInner {
+  align-self: stretch;
+  position: relative;
+  border-top: 2px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  height: 2px;
+}
+.testParent {
+  width: 66px;
+  height: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.game,
+.lineDiv {
+  position: relative;
+}
+.game {
+  font-weight: 500;
+}
+.lineDiv {
+  align-self: stretch;
+  border-top: 2px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  height: 2px;
+}
+.gameParent {
+  width: 80px;
+  height: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.others {
+  position: relative;
+  font-weight: 500;
+}
+.frameChild1 {
+  align-self: stretch;
+  position: relative;
+  border-top: 2px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  height: 2px;
+}
+.othersParent {
+  width: 90px;
+  height: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.createFlashcardButtonInner,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.createFlashcardButtonInner {
+  width: 554px;
+  justify-content: flex-start;
+  padding: 0 8px 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.cardSurface {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 42.51px;
+  background-color: #c4c4c4;
+}
+.frameIcon,
+.x12 {
+  position: relative;
+}
+.frameIcon {
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: rotate(-180deg);
+}
+.x12 {
+  align-self: stretch;
+  flex: 1;
+  letter-spacing: 0.02em;
+}
+.x12Wrapper {
+  width: 132px;
+  height: 187px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 141px 0 0;
+  box-sizing: border-box;
+}
+.frameIcon1 {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: rotate(-180deg);
+}
+.cardBack,
+.subCard3 {
+  display: flex;
+  flex-direction: row;
+}
+.subCard3 {
+  flex: 1;
+  border-radius: 42.51px;
+  background: linear-gradient(
+    222.94deg,
+    #071844,
+    #071844 3.95%,
+    #2d87b6 82.51%,
+    #2d87b6
+  );
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-15xl) var(--padding-15xl) 172px;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.cardBack {
+  width: 712px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transform: rotate(180deg);
+  max-width: Infinity%;
+  flex-shrink: 0;
+}
+.cardBackWrapper {
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maskGroup,
+.maskSet {
+  display: flex;
+  justify-content: flex-end;
+}
+.maskGroup {
+  width: 364px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  max-width: Infinity%;
+  flex-shrink: 0;
+}
+.maskSet {
+  width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maskGroupIcon {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.comp {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 38.3px;
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
+.vectorIcon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.vectorIcon1 {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  min-height: 60px;
+}
+.b,
+.vectorIcon1,
+.vectorIcon2 {
+  position: relative;
+}
+.vectorIcon2 {
+  width: 60px;
+  height: 60px;
+  min-height: 60px;
+}
+.vectorGroup {
+  width: 272px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 43px;
+}
+.vectorIcon3 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.createFlashcardButton,
+.vectorParent {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.vectorParent {
+  width: 612px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  flex-shrink: 0;
+  font-size: 24px;
+  color: #202b37;
+}
+.createFlashcardButton {
+  width: 712px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.maskGroupContainer,
+.textPublishedBy {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.textPublishedBy {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--med-size);
+  font-family: var(--med);
+}
+.maskGroupContainer {
+  width: 971px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 56px;
+  text-align: center;
+  font-size: 32px;
+  color: var(--color-dimgray);
+  font-family: var(--font-montserrat);
+}
+.wrapperGroup1Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.769);
+}
+.wrapperGroup1 {
+  width: 80.6px;
+  height: 80.6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.publishedBy,
+.wrapperGroup1 {
+  position: relative;
+}
+.component40Icon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 34.5px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.publishedByParent,
+.wrapperGroup1Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.publishedByParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+.wrapperGroup1Parent {
+  width: 217px;
+  flex-direction: row;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+}
+.createFlashcardBtn {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.createFlashcard {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  background: linear-gradient(180deg, #06286e, #164ec0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.createFlashcardBtnParent,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.createFlashcardBtnParent {
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  gap: 8px;
+  font-size: 28px;
+}
+.frameContainer {
+  align-self: stretch;
+  justify-content: space-between;
+  min-height: 171px;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: 12.4px;
+  color: var(--color-dimgray);
+  font-family: var(--med);
+}
+.faq1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(180deg, #06286e, #164ec0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.canEducationFlashcards {
+  width: calc(100% - 73px);
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--med);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  position: relative;
+  line-height: 26px;
+  color: var(--color-gray);
+  text-align: left;
+  display: inline-block;
+  max-width: calc(100% - 44px);
+}
+.educationFlashcardsIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.component53 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-dodgerblue);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-mid) var(--padding-6xl) var(--padding-mid)
+    var(--padding-5xl);
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.howDoEducation {
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+}
+.frameIcon2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.component54 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-dodgerblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-mid) var(--padding-6xl) var(--padding-mid)
+    var(--padding-5xl);
+  gap: var(--gap-xl);
+}
+.canEducationFlashcards1 {
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+}
+.frameIcon3 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.component55 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-dodgerblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-mid) var(--padding-6xl) var(--padding-mid)
+    var(--padding-5xl);
+  gap: var(--gap-xl);
+}
+.component53Parent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  font-size: var(--font-size-base);
+}
+.component53Parent,
+.desktop9,
+.faqParent,
+.relationsFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.faqParent {
+  width: 848px;
+  align-items: flex-start;
+  gap: 48px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 48px;
+  color: var(--color-gray);
+  font-family: var(--med);
+}
+.desktop9,
+.relationsFrame {
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+}
+.relationsFrame {
+  width: 1236px;
+  align-items: flex-start;
+  padding: 0 4px 0 0;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray);
+  font-family: var(--med);
+}
+.desktop9 {
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  padding: 27px var(--padding-xl) 307px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .frameLoginParent {
+    display: none;
+  }
+  .frameRoot {
+    width: 708px;
+  }
+  .relationsAndFunctions {
+    font-size: 26px;
+  }
+  .x12 {
+    font-size: 31px;
+  }
+  .createFlashcardButton {
+    gap: var(--gap-base);
+  }
+  .faq1 {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .frameLoginParent {
+    gap: var(--gap-xl);
+  }
+  .frameMathematics,
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .maskGroupContainer {
+    gap: 28px;
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .desktop9,
+  .relationsFrame {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .gameLineFrame {
+    flex-wrap: wrap;
+  }
+  .relationsAndFunctions {
+    font-size: var(--font-size-lgi);
+  }
+  .game,
+  .others,
+  .quiz,
+  .study,
+  .test {
+    font-size: var(--font-size-base);
+  }
+  .x12 {
+    font-size: 23px;
+  }
+  .subCard3 {
+    flex-wrap: wrap;
+    padding-top: 22px;
+    padding-bottom: 112px;
+    box-sizing: border-box;
+  }
+  .b {
+    font-size: var(--font-size-lgi);
+  }
+  .vectorGroup {
+    gap: var(--gap-2xl);
+  }
+  .vectorParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .createFlashcard {
+    font-size: 22px;
+  }
+  .faq1 {
+    font-size: 29px;
+  }
+  .component53Parent {
+    gap: var(--gap-base);
+  }
+  .faqParent {
+    gap: 24px;
+  }
+  .desktop9,
+  .relationsFrame {
+    gap: var(--gap-base);
+  }
+}
